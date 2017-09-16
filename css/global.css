@@ -1,0 +1,24 @@
+body, input {
+    font: 0.9em Tahoma, sans-serif;
+}
+
+.title {
+    font-weight: normal;
+}
+
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 0;
+}
+
+input[type="url"] {
+    width: 300px;
+}
